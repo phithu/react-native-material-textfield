@@ -720,8 +720,6 @@ export default class TextField extends PureComponent {
 
           {this.renderAccessory('renderRightAccessory')}
         </Animated.View>
-
-        {this.renderHelper()}
       </View>
     );
   }
