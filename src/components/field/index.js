@@ -136,7 +136,7 @@ export default class TextField extends PureComponent {
     x0: 0,
     y0: 0,
     x1: 0,
-    y1: 0,
+    y1: 10,
   };
 
   static getDerivedStateFromProps({ error }, state) {
